@@ -6,4 +6,5 @@ public interface Users {
 	public void Register();
 	public void Login();
 	public String getTierCard();
+	public Cards getPersonalCard();
 }
