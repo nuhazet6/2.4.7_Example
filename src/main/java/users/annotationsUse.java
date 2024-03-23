@@ -17,7 +17,8 @@ public class annotationsUse {
 		
 		//usar el bean
 		System.out.println(Antonio.getTierCard());
-		
+		Antonio.getPersonalCard().improveLevel();
+		System.out.println(Antonio.getTierCard());
 		
 		//cerrar el contexto
 		contexto.close();

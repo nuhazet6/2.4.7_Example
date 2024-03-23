@@ -18,7 +18,10 @@ public class Tier1User implements Users {
 	public String getTierCard() {
 		return personalCard.getTier();
 	}
-
+	
+	public Cards getPersonalCard() {
+		return personalCard;
+	}
 
 	@Override
 	public void Register() {
