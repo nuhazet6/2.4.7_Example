@@ -13,7 +13,7 @@ public class annotationsUse {
 		
 		//pedir un bean al contenedor
 		
-		Users Antonio=contexto.getBean("tier1User",Users.class);
+		Users Antonio=contexto.getBean("user",Users.class);
 		
 		//usar el bean
 		System.out.println(Antonio.getTierCard());

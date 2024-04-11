@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Tier1User implements Users {
+public class User implements Users {
 	public Boolean registered=false;
 	public Boolean logged=false;
 	private Cards personalCard;
